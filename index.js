@@ -5,7 +5,7 @@ $(function () {
     // 送信
     $('form').submit(function () {
         var contract = $('input[name="contract"]').val();
-        var tel = $('textarea[name="tel"]').val();
+        var tel = $('input[name="tel"]').val();
 
         // var tool = $('input[name="tool"]').val();
         
