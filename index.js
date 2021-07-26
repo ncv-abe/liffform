@@ -11,7 +11,7 @@ $(function () {
         
         //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
         var msg = `ご契約有無：${contract}`;
-        var msg = `ご契約のお電話番号：${reasons}`;
+        var msg = `ご契約のお電話番号：${tel}`;
         sendText(msg);
 
         return false;
